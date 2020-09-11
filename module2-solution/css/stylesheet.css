@@ -2,9 +2,10 @@
     box-sizing: border-box;
 }
 
-h1 {
+h2 {
     margin-bottom: 15px;
-    font-family: Arial, Helvetica, sans-serif
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
@@ -13,7 +14,7 @@ p {
     margin-right: auto;
     margin-left: auto;
     margin-top: 10px;
-    font-family: Helvetica;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .row {
@@ -22,18 +23,47 @@ p {
 
 .title {
   position: absolute;
-  top: 5px;
-  right: 5px;
+  /* top: 5px; */
+  right: 0px;
+  /* border: 2.5px solid black; */
+  padding: 2.5px;
+  font-family: Arial, Helvetica, sans-serif
 }
 
 .text {
-  width: 90%;
-    height: 150px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 10px;
-    font-family: Helvetica;
+  width: 95%;
+  /* position: absolute; */
+  /* top: 0.5%; */
+  /* height: 150px; */
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+  margin-top: 25px;
+  margin-bottom: 0.5%;
+  font-family: Arial, Helvetica, sans-serif
 }
+
+#chicken-text {
+  background-color: #FABF63;
+}
+#chicken-title {
+  background-color: #FF9B00;
+  color: #ffffff;
+}
+#beef-text {
+  background-color: #FF5C5C;
+}
+#beef-title {
+  background-color: #FF1212;
+  color: #ffffff;
+}
+#sushi-text {
+  background-color: #48DE5F;
+}
+#sushi-title {
+  background-color: #00BF1D;
+  color: #ffffff;
+}
+
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
@@ -42,7 +72,7 @@ p {
       position: relative;
       float: left;
       margin: 0.5%;
-      border: 1px solid black;
+      border: 2.5px solid black;
     }
     .col-lg-1 {
       width: 8%;
@@ -78,7 +108,7 @@ p {
       width: 91%;
     }
     .col-lg-12 {
-      width: 100%;
+      width: 99%;
     }
 }
   
@@ -125,7 +155,7 @@ p {
       width: 91%;
     }
     .col-md-12 {
-      width: 100%;
+      width: 99%;
     }
 }
 
@@ -172,7 +202,7 @@ p {
       width: 91%;
     }
     .col-sm-12 {
-      width: 100%;
+      width: 99%;
     }
 }
   
